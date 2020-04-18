@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS FLIGHTS;
 
 CREATE TABLE IF NOT EXISTS flight_ticket
 (
-  itinerary_id INT NOT NULL AUTO_INCREMENT default 0,
+  itinerary_id INT NOT NULL AUTO_INCREMENT,
   passenger_age INT NOT NULL,
   passenger_name VARCHAR(200)  NOT NULL,
   origin_city VARCHAR(200)  NOT NULL,
